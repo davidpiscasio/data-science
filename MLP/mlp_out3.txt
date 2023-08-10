@@ -1,0 +1,102 @@
+MNISTMLPModel(
+  (model): MultilayerPerceptron(
+    (fc_in): Linear(in_features=784, out_features=256, bias=True)
+    (fc_hid): Linear(in_features=256, out_features=256, bias=True)
+    (fc_out): Linear(in_features=256, out_features=10, bias=True)
+    (relu): ReLU()
+    (softmax): Softmax(dim=1)
+  )
+  (loss): CrossEntropyLoss()
+  (accuracy): MulticlassAccuracy()
+  (optimizer): SGD()
+)
+Epoch 0: 100%|██████████| 938/938 [00:12<00:00, 76.09it/s, v_num=36]       Test loss: 2.3025174140930176
+Test accuracy: 10.449840545654297
+Epoch 0: 100%|██████████| 938/938 [00:14<00:00, 63.98it/s, v_num=36, test_loss=2.300, test_acc=10.40]Train loss: 2.3027076721191406
+Epoch 1: 100%|██████████| 938/938 [00:12<00:00, 74.46it/s, v_num=36, test_loss=2.300, test_acc=10.40]Test loss: 2.3020899295806885
+Test accuracy: 11.59434700012207
+Epoch 1: 100%|██████████| 938/938 [00:15<00:00, 61.46it/s, v_num=36, test_loss=2.300, test_acc=11.60]Train loss: 2.302294969558716
+Epoch 2: 100%|██████████| 938/938 [00:13<00:00, 67.67it/s, v_num=36, test_loss=2.300, test_acc=11.60]Test loss: 2.3016533851623535
+Test accuracy: 12.728901863098145
+Epoch 2: 100%|██████████| 938/938 [00:16<00:00, 56.66it/s, v_num=36, test_loss=2.300, test_acc=12.70]Train loss: 2.3018760681152344
+Epoch 3: 100%|██████████| 938/938 [00:13<00:00, 67.59it/s, v_num=36, test_loss=2.300, test_acc=12.70]Test loss: 2.3012044429779053
+Test accuracy: 13.793789863586426
+Epoch 3: 100%|██████████| 938/938 [00:16<00:00, 56.43it/s, v_num=36, test_loss=2.300, test_acc=13.80]Train loss: 2.3014450073242188
+Epoch 4: 100%|██████████| 938/938 [00:13<00:00, 67.50it/s, v_num=36, test_loss=2.300, test_acc=13.80]Test loss: 2.3007402420043945
+Test accuracy: 15.226910591125488
+Epoch 4: 100%|██████████| 938/938 [00:16<00:00, 56.49it/s, v_num=36, test_loss=2.300, test_acc=15.20]Train loss: 2.3010010719299316
+Epoch 5: 100%|██████████| 938/938 [00:13<00:00, 67.44it/s, v_num=36, test_loss=2.300, test_acc=15.20]Test loss: 2.3002586364746094
+Test accuracy: 17.585590362548828
+Epoch 5: 100%|██████████| 938/938 [00:16<00:00, 56.43it/s, v_num=36, test_loss=2.300, test_acc=17.60]Train loss: 2.3005423545837402
+Epoch 6: 100%|██████████| 938/938 [00:13<00:00, 67.20it/s, v_num=36, test_loss=2.300, test_acc=17.60]Test loss: 2.2997570037841797
+Test accuracy: 20.919586181640625
+Epoch 6: 100%|██████████| 938/938 [00:16<00:00, 56.38it/s, v_num=36, test_loss=2.300, test_acc=20.90]Train loss: 2.3000645637512207
+Epoch 7: 100%|██████████| 938/938 [00:13<00:00, 67.14it/s, v_num=36, test_loss=2.300, test_acc=20.90]Test loss: 2.299234628677368
+Test accuracy: 24.084394454956055
+Epoch 7: 100%|██████████| 938/938 [00:16<00:00, 56.32it/s, v_num=36, test_loss=2.300, test_acc=24.10]Train loss: 2.299567222595215
+Epoch 8: 100%|██████████| 938/938 [00:14<00:00, 66.96it/s, v_num=36, test_loss=2.300, test_acc=24.10]Test loss: 2.2986907958984375
+Test accuracy: 26.87101936340332
+Epoch 8: 100%|██████████| 938/938 [00:16<00:00, 56.07it/s, v_num=36, test_loss=2.300, test_acc=26.90]Train loss: 2.2990479469299316
+Epoch 9: 100%|██████████| 938/938 [00:13<00:00, 67.15it/s, v_num=36, test_loss=2.300, test_acc=26.90]Test loss: 2.2981252670288086
+Test accuracy: 28.851512908935547
+Epoch 9: 100%|██████████| 938/938 [00:16<00:00, 56.21it/s, v_num=36, test_loss=2.300, test_acc=28.90]Train loss: 2.298509120941162
+Epoch 10: 100%|██████████| 938/938 [00:13<00:00, 67.01it/s, v_num=36, test_loss=2.300, test_acc=28.90]Test loss: 2.297539710998535
+Test accuracy: 30.324443817138672
+Epoch 10: 100%|██████████| 938/938 [00:16<00:00, 56.07it/s, v_num=36, test_loss=2.300, test_acc=30.30]Train loss: 2.2979495525360107
+Epoch 11: 100%|██████████| 938/938 [00:14<00:00, 66.94it/s, v_num=36, test_loss=2.300, test_acc=30.30]Test loss: 2.2969367504119873
+Test accuracy: 31.717754364013672
+Epoch 11: 100%|██████████| 938/938 [00:16<00:00, 55.91it/s, v_num=36, test_loss=2.300, test_acc=31.70]Train loss: 2.2973716259002686
+Epoch 12: 100%|██████████| 938/938 [00:14<00:00, 66.89it/s, v_num=36, test_loss=2.300, test_acc=31.70]Test loss: 2.2963201999664307
+Test accuracy: 32.58359909057617
+Epoch 12: 100%|██████████| 938/938 [00:16<00:00, 55.97it/s, v_num=36, test_loss=2.300, test_acc=32.60]Train loss: 2.2967772483825684
+Epoch 13: 100%|██████████| 938/938 [00:14<00:00, 66.70it/s, v_num=36, test_loss=2.300, test_acc=32.60]Test loss: 2.2956948280334473
+Test accuracy: 33.33001708984375
+Epoch 13: 100%|██████████| 938/938 [00:16<00:00, 55.76it/s, v_num=36, test_loss=2.300, test_acc=33.30]Train loss: 2.296175479888916
+Epoch 14: 100%|██████████| 938/938 [00:14<00:00, 66.70it/s, v_num=36, test_loss=2.300, test_acc=33.30]Test loss: 2.2950668334960938
+Test accuracy: 34.12619400024414
+Epoch 14: 100%|██████████| 938/938 [00:16<00:00, 55.78it/s, v_num=36, test_loss=2.300, test_acc=34.10]Train loss: 2.295562744140625
+Epoch 15: 100%|██████████| 938/938 [00:14<00:00, 66.57it/s, v_num=36, test_loss=2.300, test_acc=34.10]Test loss: 2.2944440841674805
+Test accuracy: 34.64371109008789
+Epoch 15: 100%|██████████| 938/938 [00:16<00:00, 55.83it/s, v_num=36, test_loss=2.290, test_acc=34.60]Train loss: 2.2949533462524414
+Epoch 16: 100%|██████████| 938/938 [00:14<00:00, 66.66it/s, v_num=36, test_loss=2.290, test_acc=34.60]Test loss: 2.293836832046509
+Test accuracy: 35.081607818603516
+Epoch 16: 100%|██████████| 938/938 [00:16<00:00, 55.72it/s, v_num=36, test_loss=2.290, test_acc=35.10]Train loss: 2.294353485107422
+Epoch 17: 100%|██████████| 938/938 [00:14<00:00, 66.85it/s, v_num=36, test_loss=2.290, test_acc=35.10]Test loss: 2.2932546138763428
+Test accuracy: 35.479698181152344
+Epoch 17: 100%|██████████| 938/938 [00:16<00:00, 55.96it/s, v_num=36, test_loss=2.290, test_acc=35.50]Train loss: 2.293776512145996
+Epoch 18: 100%|██████████| 938/938 [00:14<00:00, 66.70it/s, v_num=36, test_loss=2.290, test_acc=35.50]Test loss: 2.2927072048187256
+Test accuracy: 35.75836181640625
+Epoch 18: 100%|██████████| 938/938 [00:16<00:00, 56.00it/s, v_num=36, test_loss=2.290, test_acc=35.80]Train loss: 2.2932229042053223
+Epoch 19: 100%|██████████| 938/938 [00:14<00:00, 66.70it/s, v_num=36, test_loss=2.290, test_acc=35.80]Test loss: 2.2922041416168213
+Test accuracy: 35.9375
+Epoch 19: 100%|██████████| 938/938 [00:16<00:00, 55.94it/s, v_num=36, test_loss=2.290, test_acc=35.90]Train loss: 2.292710065841675
+Epoch 20: 100%|██████████| 938/938 [00:14<00:00, 66.53it/s, v_num=36, test_loss=2.290, test_acc=35.90]Test loss: 2.2917535305023193
+Test accuracy: 36.03702163696289
+Epoch 20: 100%|██████████| 938/938 [00:16<00:00, 55.72it/s, v_num=36, test_loss=2.290, test_acc=36.00]Train loss: 2.2922415733337402
+Epoch 21: 100%|██████████| 938/938 [00:14<00:00, 66.72it/s, v_num=36, test_loss=2.290, test_acc=36.00]Test loss: 2.2913620471954346
+Test accuracy: 36.15644836425781
+Epoch 21: 100%|██████████| 938/938 [00:16<00:00, 55.84it/s, v_num=36, test_loss=2.290, test_acc=36.20]Train loss: 2.2918293476104736
+Epoch 22: 100%|██████████| 938/938 [00:14<00:00, 66.50it/s, v_num=36, test_loss=2.290, test_acc=36.20]Test loss: 2.291033983230591
+Test accuracy: 36.15644836425781
+Epoch 22: 100%|██████████| 938/938 [00:16<00:00, 55.66it/s, v_num=36, test_loss=2.290, test_acc=36.20]Train loss: 2.2914822101593018
+Epoch 23: 100%|██████████| 938/938 [00:14<00:00, 66.81it/s, v_num=36, test_loss=2.290, test_acc=36.20]Test loss: 2.2907700538635254
+Test accuracy: 36.176353454589844
+Epoch 23: 100%|██████████| 938/938 [00:16<00:00, 55.89it/s, v_num=36, test_loss=2.290, test_acc=36.20]Train loss: 2.291191339492798
+Epoch 24: 100%|██████████| 938/938 [00:14<00:00, 66.66it/s, v_num=36, test_loss=2.290, test_acc=36.20]Test loss: 2.2905681133270264
+Test accuracy: 36.13654327392578
+Epoch 24: 100%|██████████| 938/938 [00:16<00:00, 55.83it/s, v_num=36, test_loss=2.290, test_acc=36.10]Train loss: 2.290961980819702
+Epoch 25: 100%|██████████| 938/938 [00:14<00:00, 66.49it/s, v_num=36, test_loss=2.290, test_acc=36.10]Test loss: 2.29042387008667
+Test accuracy: 36.08678436279297
+Epoch 25: 100%|██████████| 938/938 [00:16<00:00, 56.01it/s, v_num=36, test_loss=2.290, test_acc=36.10]Train loss: 2.290790319442749
+Epoch 26: 100%|██████████| 938/938 [00:14<00:00, 64.40it/s, v_num=36, test_loss=2.290, test_acc=36.10]Test loss: 2.2903294563293457
+Test accuracy: 36.06687927246094
+Epoch 26: 100%|██████████| 938/938 [00:17<00:00, 54.67it/s, v_num=36, test_loss=2.290, test_acc=36.10]Train loss: 2.290675640106201
+Epoch 27: 100%|██████████| 938/938 [00:14<00:00, 64.75it/s, v_num=36, test_loss=2.290, test_acc=36.10]Test loss: 2.290275812149048
+Test accuracy: 36.08678436279297
+Epoch 27: 100%|██████████| 938/938 [00:17<00:00, 55.06it/s, v_num=36, test_loss=2.290, test_acc=36.10]Train loss: 2.2906038761138916
+Epoch 28: 100%|██████████| 938/938 [00:15<00:00, 62.19it/s, v_num=36, test_loss=2.290, test_acc=36.10]Test loss: 2.290252208709717
+Test accuracy: 36.08678436279297
+Epoch 28: 100%|██████████| 938/938 [00:17<00:00, 53.62it/s, v_num=36, test_loss=2.290, test_acc=36.10]Train loss: 2.290566921234131
+Epoch 29: 100%|██████████| 938/938 [00:14<00:00, 64.63it/s, v_num=36, test_loss=2.290, test_acc=36.10]Test loss: 2.290248155593872
+Test accuracy: 36.08678436279297
+Epoch 29: 100%|██████████| 938/938 [00:16<00:00, 55.60it/s, v_num=36, test_loss=2.290, test_acc=36.10]Train loss: 2.2905519008636475
