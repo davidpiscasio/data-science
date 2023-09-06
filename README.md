@@ -9,7 +9,7 @@ Experiments on Machine Learning
 * [Denoising Autoencoder (AE)](https://github.com/davidpiscasio/machine-learning/blob/main/AE/denoise_ae.ipynb)
 
 ### Install requirements
-To install the needed dependencies for the experiments,
+To install the needed dependencies for the experiments
 ```
 pip install -r requirements.txt
 ```
