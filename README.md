@@ -4,6 +4,7 @@ Experiments on Machine Learning
 * [Logistic Regression](https://github.com/davidpiscasio/machine-learning/blob/main/LogisticRegression/logistic_regression.ipynb)
 * [K-Nearest Neighbors (KNN)](https://github.com/davidpiscasio/machine-learning/blob/main/KNN/knn.ipynb)
 * [K-Means Clustering](https://github.com/davidpiscasio/machine-learning/blob/main/KMeansClustering/kmeans.ipynb)
+* [Gaussian Naive Bayes](https://github.com/davidpiscasio/machine-learning/blob/main/NB/gnb.ipynb)
 * [Multilayer Perceptron (MLP)](https://github.com/davidpiscasio/machine-learning/blob/main/MLP/mlp.ipynb)
 * [Convolutional Neural Network (CNN)](https://github.com/davidpiscasio/machine-learning/blob/main/CNN/cnn.ipynb)
 * [Denoising Autoencoder (AE)](https://github.com/davidpiscasio/machine-learning/blob/main/AE/denoise_ae.ipynb)
