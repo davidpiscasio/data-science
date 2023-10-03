@@ -9,7 +9,7 @@ Experiments on Machine Learning
 * [Multilayer Perceptron (MLP)](https://github.com/davidpiscasio/machine-learning/blob/main/MLP/mlp.ipynb)
 * [Convolutional Neural Network (CNN)](https://github.com/davidpiscasio/machine-learning/blob/main/CNN/cnn.ipynb)
 * [Vision Transformer (ViT)](https://github.com/davidpiscasio/machine-learning/blob/main/Transformer/vit.ipynb)
-* [Denoising Autoencoder (AE)](https://github.com/davidpiscasio/machine-learning/blob/main/AE/denoise_ae.ipynb)
+* [Autoencoder (AE)](https://github.com/davidpiscasio/machine-learning/blob/main/AE/denoise_ae.ipynb)
 
 ### Install requirements
 To install the needed dependencies for the experiments
