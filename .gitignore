@@ -29,7 +29,14 @@ MANIFEST
 # Data files
 *.csv
 *.parquet
+*.tar.gz
+drinks/
 
+# Model files
+*.pth
+
+# Media
+*.mp4
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
