@@ -16,6 +16,7 @@ Experiments on Data Science
 
 ### Projects
 * [Object Detection](ObjectDetection)
+* [Bank Churn Prediction](GBDTBankChurn/gbdt_bankchurn.ipynb)
 
 ### Install requirements
 To install the needed dependencies for the experiments
