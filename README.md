@@ -1,7 +1,8 @@
 # data-science
 Experiments on Data Science
 
-### Algorithms
+### Concepts
+* [Central Limit Theorem](CLT/clt.ipynb)
 * [Monte Carlo Simulation](MonteCarlo/monte_carlo.ipynb)
 * [Linear Regression](LinearRegression/linear_regression.ipynb)
 * [Logistic Regression](LogisticRegression/logistic_regression.ipynb)
