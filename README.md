@@ -8,6 +8,7 @@ Experiments on Data Science
 * [Logistic Regression](LogisticRegression/logistic_regression.ipynb)
 * [K-Nearest Neighbors (KNN)](KNN/knn.ipynb)
 * [Support Vector Machine (SVM)](SVM/svm.ipynb)
+* [Gaussian Process Regression (GPR)](GaussianProcess/gp_regression.ipynb)
 * [K-Means Clustering](KMeans/kmeans.ipynb)
 * [Gaussian Naive Bayes (GNB)](NB/gnb.ipynb)
 * [Multilayer Perceptron (MLP)](MLP/mlp.ipynb)
